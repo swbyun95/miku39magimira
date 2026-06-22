@@ -1,0 +1,272 @@
+{
+  "site": {
+    "title": "MIKU HAMAMATSU HUB",
+    "subtitle": "마지컬 미라이 하마마츠 여행·콜라보 정보 허브",
+    "dataVersion": "2026-06-22-v2-github",
+    "lastUpdated": "2026-06-22",
+    "notice": "정보는 공식 페이지 기준으로 갱신합니다. 예약·티켓 필요 여부는 카드 배지를 확인하세요."
+  },
+  "editions": [
+    {
+      "id": "magical-mirai-2026-hamamatsu",
+      "year": 2026,
+      "city": "HAMAMATSU",
+      "title": "Magical Mirai 2026 HAMAMATSU",
+      "period": "2026-07-24 ~ 2026-07-26",
+      "venue": "アクトシティ浜松",
+      "venueMap": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
+      "status": "공식 정보 확인 중",
+      "summary": [
+        "하마마츠 개최분의 공식 행사·현지 콜라보·굿즈·예약 필요 정보를 모아 보는 페이지입니다.",
+        "세부 여행 일정은 고정하지 않고, 현장 메모와 링크 중심으로 관리합니다.",
+        "메모장은 각자 브라우저에만 저장됩니다."
+      ],
+      "quickLinks": [
+        {"label": "공식 사이트", "url": "https://magicalmirai.com/2026/"},
+        {"label": "HAMAMATSU 티켓", "url": "https://magicalmirai.com/2026/hamamatsu_ticket.html"},
+        {"label": "공식 굿즈", "url": "https://magicalmirai.com/2026/goods.html"},
+        {"label": "하마마츠 특설", "url": "https://hamamatsu-excursion.com/"}
+      ],
+      "cards": [
+        {
+          "id": "official-basic",
+          "section": "핵심",
+          "category": "공식 행사",
+          "title": "初音ミク『マジカルミライ 2026』HAMAMATSU",
+          "date": "2026-07-24 ~ 2026-07-26",
+          "place": "アクトシティ浜松",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
+          "reservation": "라이브/기획전 티켓 필요",
+          "status": "확정",
+          "description": "HAMAMATSU 공연·기획전 기본 정보. 회장별 상세 시간과 입장 조건은 공식 사이트 기준으로 확인.",
+          "links": [
+            {"label": "공식 사이트", "url": "https://magicalmirai.com/2026/"},
+            {"label": "HAMAMATSU 일정", "url": "https://magicalmirai.com/2026/hamamatsu.html"}
+          ]
+        },
+        {
+          "id": "ticket-important",
+          "section": "핵심",
+          "category": "티켓/주의",
+          "title": "HAMAMATSU 기획전·물판 입장 조건",
+          "date": "2026-07-24 ~ 2026-07-26",
+          "place": "HAMAMATSU 기획전 회장",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
+          "reservation": "기획전 티켓 필요",
+          "status": "확정",
+          "description": "HAMAMATSU 회장 공식물판은 기획전 안쪽 판매로 구분. OSAKA/TOKYO 회장수령 예약과 혼동하지 않도록 주의.",
+          "links": [
+            {"label": "중요 안내", "url": "https://magicalmirai.com/2026/info_important.html"},
+            {"label": "공식 굿즈", "url": "https://magicalmirai.com/2026/goods.html"}
+          ]
+        },
+        {
+          "id": "hmv-popup",
+          "section": "콜라보",
+          "category": "팝업/굿즈",
+          "title": "HMV POP UP SHOP in 遠鉄百貨店",
+          "date": "2026-07-22 ~ 2026-07-28",
+          "place": "遠鉄百貨店 本館8F 催会場",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
+          "reservation": "입장 무료 / 상품 구매 필요",
+          "status": "확정",
+          "description": "엔테츠백화점 8층에서 열리는 HMV 팝업. 공식 굿즈, 오리지널 굿즈, 구매 특전 미니카드 안내 확인 필요.",
+          "links": [
+            {"label": "공식 콜라보", "url": "https://magicalmirai.com/2026/special_collabo_link.html"},
+            {"label": "엔테츠백화점 특설", "url": "https://www.endepa.com/special/z8tkgt7ls_d"}
+          ]
+        },
+        {
+          "id": "yamaha-vocaloid",
+          "section": "콜라보",
+          "category": "전시/예약",
+          "title": "Yamaha Innovation Road 특별전『初音ミクとボーカロイド』",
+          "date": "2026-06-18 ~ 2026-09-18",
+          "place": "Yamaha Innovation Road",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamaha%20Innovation%20Road%20Hamamatsu",
+          "reservation": "사전예약 필요 / 무료",
+          "status": "확정",
+          "description": "피아프로 캐릭터와 야마하 악기 패널, 워크랠리, 오리지널 스티커. 7/24~25 한정 라이브 영상 일부 상영 안내.",
+          "links": [
+            {"label": "Yamaha 공식", "url": "https://www.yamaha.com/ja/about/experience/innovation-road/information/2026/00105/"}
+          ]
+        },
+        {
+          "id": "endepa-gyoza",
+          "section": "콜라보",
+          "category": "현지 상품",
+          "title": "遠鉄百貨店 × 生餃子工房いえやす 콜라보 교자",
+          "date": "2026-06-18 ~ 2026-12월 말 예정",
+          "place": "遠鉄百貨店 / 온라인스토어",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
+          "reservation": "상품 구매 필요",
+          "status": "확정",
+          "description": "生餃子工房いえやす 콜라보 교자 2종. 수량 소진 가능성이 있으므로 현장 재고 확인 필요.",
+          "links": [
+            {"label": "엔테츠백화점 특설", "url": "https://www.endepa.com/special/z8tkgt7ls_d"}
+          ]
+        },
+        {
+          "id": "endepa-tote",
+          "section": "콜라보",
+          "category": "현지 상품",
+          "title": "遠鉄百貨店 × ROOTOTE 오리지널 토트백",
+          "date": "2026-07-01 ~ 2026-09월 말 예정",
+          "place": "HMV POP UP SHOP 회장 / 엔테츠백화점 온라인스토어",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
+          "reservation": "상품 구매 필요",
+          "status": "확정",
+          "description": "ROOTOTE 콜라보 토트백. 판매 기간과 재고는 특설 페이지 기준으로 확인.",
+          "links": [
+            {"label": "엔테츠백화점 특설", "url": "https://www.endepa.com/special/z8tkgt7ls_d"}
+          ]
+        },
+        {
+          "id": "endepa-photo-panel",
+          "section": "콜라보",
+          "category": "포토스팟",
+          "title": "遠鉄百貨店 初音ミク 특대 패널 포토스팟",
+          "date": "2026-06-18 ~ 2026-09-30",
+          "place": "遠鉄百貨店 本館3F イ・コ・イ スクエア",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
+          "reservation": "입장 무료",
+          "status": "확정",
+          "description": "엔테츠백화점 3층 포토스팟 설치.",
+          "links": [
+            {"label": "엔테츠백화점 특설", "url": "https://www.endepa.com/special/z8tkgt7ls_d"}
+          ]
+        },
+        {
+          "id": "entetsu-stamp-rally",
+          "section": "콜라보",
+          "category": "철도/스탬프",
+          "title": "遠州鉄道 디지털 스탬프 랠리",
+          "date": "2026-07-01 ~ 2026-09-30",
+          "place": "신하마마츠역·액트타워·과학관·악기박물관·엔테츠백화점 등 9포인트",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shin-Hamamatsu%20Station",
+          "reservation": "예약 없음 / 위치정보 필요",
+          "status": "확정",
+          "description": "웹브라우저와 위치정보를 사용하는 디지털 스탬프 랠리. 6개 이상 수집 시 한정 노벨티 안내.",
+          "links": [
+            {"label": "엔테츠 전철 안내", "url": "https://akaden.lekumo.biz/information/2026/05/2026-89c7.html"},
+            {"label": "스탬프 랠리", "url": "https://www.stamprally.net/qctmhuxlzlkklucv"}
+          ]
+        },
+        {
+          "id": "entetsu-train-goods",
+          "section": "콜라보",
+          "category": "철도/굿즈",
+          "title": "遠州鉄道 헤드마크·콜라보 굿즈",
+          "date": "헤드마크 2026-07-01 ~ 2026-09-30 / 굿즈 2026-07-01 ~ 2026-12-31",
+          "place": "신하마마츠역·니시카지마역 등",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shin-Hamamatsu%20Station",
+          "reservation": "상품 구매 필요",
+          "status": "확정",
+          "description": "2003호·2009호 헤드마크 운행 예정. 1일 프리 티켓, 鉄印, 마그넷, 클리어파일 등 판매.",
+          "links": [
+            {"label": "엔테츠 전철 안내", "url": "https://akaden.lekumo.biz/information/2026/05/2026-89c7.html"}
+          ]
+        },
+        {
+          "id": "hamamatsu-city-pr",
+          "section": "콜라보",
+          "category": "하마마츠 시내",
+          "title": "하마마츠시 PR / 관광맵 / 패널 기획",
+          "date": "2026-07-01 ~ 2026-09-30",
+          "place": "JR 하마마츠역 북쪽 キタラ 외 시내 각지",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hamamatsu%20Station%20Kitara",
+          "reservation": "추후공개",
+          "status": "추후공개 포함",
+          "description": "JR 하마마츠역 북쪽 キタラ 콜라보 사인, 관광맵/팸플릿, 포스터, 피아프로 캐릭터 패널 등이 안내되었습니다. 세부 위치는 추가 공개 확인 필요.",
+          "links": [
+            {"label": "하마마츠시 발표", "url": "https://www.city.hamamatsu.shizuoka.jp/shise/koho/koho/hodohappyo/2026/5/2908.html"},
+            {"label": "하마마츠 특설", "url": "https://hamamatsu-excursion.com/"}
+          ]
+        },
+        {
+          "id": "sponsor-booths",
+          "section": "회장",
+          "category": "기업부스/굿즈",
+          "title": "HAMAMATSU 기업부스·굿즈",
+          "date": "2026-07-24 ~ 2026-07-26",
+          "place": "HAMAMATSU 기획전 회장",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
+          "reservation": "기획전 티켓 필요",
+          "status": "일부 추가 공개 예정",
+          "description": "奏の森リゾート, INTERNET, ムービック, COSPA, 굿스마일, DAIHATSU 등 부스와 굿즈/전시 정보 확인 필요.",
+          "links": [
+            {"label": "HAMAMATSU 부스 공식", "url": "https://magicalmirai.com/2026/hamamatsu_sponsor.html"}
+          ]
+        },
+        {
+          "id": "karent-market",
+          "section": "회장",
+          "category": "마켓",
+          "title": "KARENT presents Creators Market",
+          "date": "2026-07-24 ~ 2026-07-26 / 각일 10:00~16:00",
+          "place": "アクトシティ浜松 コングレスセンター3F",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu%20Congress%20Center",
+          "reservation": "기획전 티켓 필요",
+          "status": "확정",
+          "description": "음악 크리에이터 중심 마켓. 촬영·녹화·녹음 금지 안내가 있으므로 현장 규정 확인 필요.",
+          "links": [
+            {"label": "Creators Market", "url": "https://magicalmirai.com/2026/hamamatsu_exmarket.html"}
+          ]
+        },
+        {
+          "id": "workshop",
+          "section": "회장",
+          "category": "워크숍",
+          "title": "기획전 워크숍",
+          "date": "2026-07-24 ~ 2026-07-26",
+          "place": "HAMAMATSU 기획전 회장",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
+          "reservation": "기획전 티켓 필요 / 일부 유료",
+          "status": "확정",
+          "description": "캔미러식 パブミラー, 커스텀 키홀더, ぬりえうちわ 등. 유료/무료와 수량 제한 여부 확인 필요.",
+          "links": [
+            {"label": "기획전 공식", "url": "https://magicalmirai.com/2026/hamamatsu_ex.html"}
+          ]
+        }
+      ],
+      "stage": [
+        {"time": "2026-07-24 14:30~16:00", "title": "하마마츠 개최 기념 토크", "description": "하츠네 미쿠의 원점과 미래 관련 토크.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-24 16:30~17:00", "title": "浜松 스페셜 콜라보 스테이지", "description": "初音ミク, 音街ウナ, 出世大名家康くん 출연 예정.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-25 11:00~11:30", "title": "KAITO 20th 기념 촬영회", "description": "촬영회 종료 후 희망자에게 스티커 배포. 소진 시 종료.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-25 14:30~15:30", "title": "TextAlive 강좌 / 프로그래밍 콘테스트 입선작 발표회", "description": "TextAlive App API 소개와 입선작 발표.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-25 17:00~17:30", "title": "浜松 스페셜 콜라보 스테이지", "description": "初音ミク, 出世大名家康くん, 出世法師直虎ちゃん 출연 예정.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-26 12:00~12:30", "title": "浜松 스페셜 콜라보 스테이지", "description": "初音ミク, 音街ウナ, 出世法師直虎ちゃん 출연 예정.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-26 14:30~15:00", "title": "SONICWIRE presents『初音ミク V6』歌わせ方講座", "description": "初音ミク V6 기본 조작과 VOCALOID:AI 최적화 노하우 소개.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
+        {"time": "2026-07-26 16:00~16:30", "title": "VOCALOIDをはじめよう！", "description": "세부 내용 Coming soon.", "reservation": "기획전 티켓 필요", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"}
+      ]
+    },
+    {
+      "id": "magical-mirai-2027-placeholder",
+      "year": 2027,
+      "city": "TBD",
+      "title": "Magical Mirai 2027",
+      "period": "미입력",
+      "venue": "미입력",
+      "venueMap": "",
+      "status": "대기 슬롯",
+      "summary": ["2027년 행사 공개 후 같은 구조로 추가합니다."],
+      "quickLinks": [],
+      "cards": [],
+      "stage": []
+    },
+    {
+      "id": "magical-mirai-2028-placeholder",
+      "year": 2028,
+      "city": "TBD",
+      "title": "Magical Mirai 2028",
+      "period": "미입력",
+      "venue": "미입력",
+      "venueMap": "",
+      "status": "대기 슬롯",
+      "summary": ["2028년 행사 공개 후 같은 구조로 추가합니다."],
+      "quickLinks": [],
+      "cards": [],
+      "stage": []
+    }
+  ]
+}
