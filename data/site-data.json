@@ -216,180 +216,544 @@
       ],
       "goods": [
         {
-          "id": "official-tshirt-hamamatsu",
-          "name": "マジカルミライ 2026 オフィシャルTシャツ(HAMAMATSU ver.)",
-          "priceText": "￥4,000（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_officialT-hamamatsu.jpg?1"
-        },
-        {
-          "id": "official-fullgraphic-tshirt",
-          "name": "マジカルミライ 2026 フルグラフィックTシャツ",
-          "priceText": "￥6,100（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_fullgT.jpg?1"
-        },
-        {
-          "id": "official-muffler-towel-miku",
-          "name": "マジカルミライ 2026 マフラータオル(初音ミク ver.)",
-          "priceText": "￥2,300（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_miku.jpg?1"
-        },
-        {
-          "id": "official-penlight",
-          "name": "マジカルミライ 2026 ペンライト",
-          "priceText": "￥3,700（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_penlight.jpg?1"
-        },
-        {
-          "id": "official-ringlight",
-          "name": "マジカルミライ 2026 リングライト",
-          "priceText": "￥1,500（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_ring-light.jpg?1"
-        },
-        {
-          "id": "official-shopping-bag",
-          "name": "マジカルミライ 2026 ショッピングバッグ",
-          "priceText": "￥1,500（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_shopping-bag.jpg?1"
-        },
-        {
-          "id": "official-silver-tape-hamamatsu",
-          "name": "マジカルミライ 2026 銀テープストラップ(HAMAMATSU ver.)",
-          "priceText": "￥1,600（税込）",
-          "area": "オフィシャルグッズ / HAMAMATSU限定",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_gintape-holder_hamamatsu.jpg?1"
-        },
-        {
-          "id": "official-visual-book",
-          "name": "マジカルミライ 2026 ビジュアルブック",
-          "priceText": "￥2,000（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_visual-book.jpg?1"
-        },
-        {
-          "id": "official-can-badge",
-          "name": "マジカルミライ 2026 缶バッジ(ランダム11種)",
-          "priceText": "￥400（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_can-badge.jpg?1"
-        },
-        {
-          "id": "official-bucket-hat",
-          "name": "マジカルミライ 2026 バケットハット",
-          "priceText": "￥5,000（税込）",
-          "area": "オフィシャルグッズ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
-          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_bucket-hat.jpg?1"
-        },
-        {
           "id": "official-album-goods",
           "name": "初音ミク「マジカルミライ 2026」OFFICIAL ALBUM [グッズ付き限定盤]",
-          "priceText": "￥5,350（税込）",
+          "priceText": "¥5,350（税込）",
           "area": "オフィシャルCDアルバム",
-          "sourceLabel": "공식 CD",
-          "sourceUrl": "https://magicalmirai.com/2026/goods_cd.html"
+          "sourceLabel": "公式 CD",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cd.html",
+          "imageUrl": ""
         },
         {
           "id": "official-album-limited",
           "name": "初音ミク「マジカルミライ 2026」OFFICIAL ALBUM [限定盤]",
-          "priceText": "￥2,600（税込）",
+          "priceText": "¥2,600（税込）",
           "area": "オフィシャルCDアルバム",
-          "sourceLabel": "공식 CD",
-          "sourceUrl": "https://magicalmirai.com/2026/goods_cd.html"
+          "sourceLabel": "公式 CD",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cd.html",
+          "imageUrl": ""
         },
         {
-          "id": "booth-card-churro",
+          "id": "goods-a3-yurayura-keyholder-1",
+          "name": "ゆらゆらアクリルキーホルダー「マジカルミライ 2026」",
+          "priceText": "￥1,200（税込）",
+          "area": "オフィシャルグッズ / 株式会社A3",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_a3_yurayura-keyholder.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_a3_yurayura-keyholder.jpg?1"
+        },
+        {
+          "id": "goods-a3-a3-clear-poster-2",
+          "name": "A3クリアポスター「マジカルミライ 2026」",
+          "priceText": "￥1,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社A3",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_a3_A3-clear-poster.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_a3_A3-clear-poster.jpg?1"
+        },
+        {
+          "id": "goods-le-officialt-hamamatsu-3",
+          "name": "マジカルミライ 2026 オフィシャルTシャツ(HAMAMATSU ver.)",
+          "priceText": "￥4,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_officialT-hamamatsu.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_officialT-hamamatsu.jpg?1"
+        },
+        {
+          "id": "goods-le-officialt-osaka-4",
+          "name": "マジカルミライ 2026 オフィシャルTシャツ(OSAKA ver.)",
+          "priceText": "￥4,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_officialT-osaka.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_officialT-osaka.jpg?1"
+        },
+        {
+          "id": "goods-le-officialt-tokyo-5",
+          "name": "マジカルミライ 2026 オフィシャルTシャツ(TOKYO ver.)",
+          "priceText": "￥4,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_officialT-tokyo.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_officialT-tokyo.jpg?1"
+        },
+        {
+          "id": "goods-le-fullgt-6",
+          "name": "マジカルミライ 2026 フルグラフィックTシャツ",
+          "priceText": "￥6,100（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_fullgT.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_fullgT.jpg?1"
+        },
+        {
+          "id": "goods-le-muffler-towel-miku-7",
+          "name": "マジカルミライ 2026 マフラータオル(初音ミク ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_muffler-towel_miku.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_miku.jpg?1"
+        },
+        {
+          "id": "goods-le-muffler-towel-rin-8",
+          "name": "マジカルミライ 2026 マフラータオル(鏡音リン ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_muffler-towel_rin.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_rin.jpg?1"
+        },
+        {
+          "id": "goods-le-muffler-towel-len-9",
+          "name": "マジカルミライ 2026 マフラータオル(鏡音レン ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_muffler-towel_len.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_len.jpg?1"
+        },
+        {
+          "id": "goods-le-muffler-towel-luka-10",
+          "name": "マジカルミライ 2026 マフラータオル(巡音ルカ ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_muffler-towel_luka.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_luka.jpg?1"
+        },
+        {
+          "id": "goods-le-muffler-towel-meiko-11",
+          "name": "マジカルミライ 2026 マフラータオル(MEIKO ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_muffler-towel_meiko.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_meiko.jpg?1"
+        },
+        {
+          "id": "goods-le-muffler-towel-kaito-12",
+          "name": "マジカルミライ 2026 マフラータオル(KAITO ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_muffler-towel_kaito.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_kaito.jpg?1"
+        },
+        {
+          "id": "goods-le-cold-towel-13",
+          "name": "マジカルミライ 2026 冷感タオル",
+          "priceText": "￥2,200（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_cold-towel.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_cold-towel.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-mv-14",
+          "name": "マジカルミライ 2026 ハッピ(メインビジュアル ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_mv.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_mv.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-miku-15",
+          "name": "マジカルミライ 2026 ハッピ(初音ミク ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_miku.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_miku.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-rin-16",
+          "name": "マジカルミライ 2026 ハッピ(鏡音リン ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_rin.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_rin.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-len-17",
+          "name": "マジカルミライ 2026 ハッピ(鏡音レン ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_len.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_len.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-luka-18",
+          "name": "マジカルミライ 2026 ハッピ(巡音ルカ ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_luka.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_luka.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-meiko-19",
+          "name": "マジカルミライ 2026 ハッピ(MEIKO ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_meiko.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_meiko.jpg?1"
+        },
+        {
+          "id": "goods-le-happi-kaito-20",
+          "name": "マジカルミライ 2026 ハッピ(KAITO ver.)",
+          "priceText": "￥7,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_happi_kaito.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_happi_kaito.jpg?1"
+        },
+        {
+          "id": "goods-le-penlight-21",
+          "name": "マジカルミライ 2026 ペンライト",
+          "priceText": "￥3,700（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_penlight.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_penlight.jpg?1"
+        },
+        {
+          "id": "goods-le-ring-light-22",
+          "name": "マジカルミライ 2026 リングライト",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_ring-light.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_ring-light.jpg?1"
+        },
+        {
+          "id": "goods-le-nuigurumi-badge-miku-23",
+          "name": "マジカルミライ 2026 ぬいぐるみバッジ(初音ミク ver.)",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_nuigurumi-badge_miku.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_nuigurumi-badge_miku.jpg?1"
+        },
+        {
+          "id": "goods-le-nuigurumi-badge-rin-24",
+          "name": "マジカルミライ 2026 ぬいぐるみバッジ(鏡音リン ver.)",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_nuigurumi-badge_rin.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_nuigurumi-badge_rin.jpg?1"
+        },
+        {
+          "id": "goods-le-nuigurumi-badge-len-25",
+          "name": "マジカルミライ 2026 ぬいぐるみバッジ(鏡音レン ver.)",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_nuigurumi-badge_len.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_nuigurumi-badge_len.jpg?1"
+        },
+        {
+          "id": "goods-le-nuigurumi-badge-luka-26",
+          "name": "マジカルミライ 2026 ぬいぐるみバッジ(巡音ルカ ver.)",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_nuigurumi-badge_luka.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_nuigurumi-badge_luka.jpg?1"
+        },
+        {
+          "id": "goods-le-nuigurumi-badge-meiko-27",
+          "name": "マジカルミライ 2026 ぬいぐるみバッジ(MEIKO ver.)",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_nuigurumi-badge_meiko.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_nuigurumi-badge_meiko.jpg?1"
+        },
+        {
+          "id": "goods-le-nuigurumi-badge-kaito-28",
+          "name": "マジカルミライ 2026 ぬいぐるみバッジ(KAITO ver.)",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_nuigurumi-badge_kaito.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_nuigurumi-badge_kaito.jpg?1"
+        },
+        {
+          "id": "goods-le-mininobori-29",
+          "name": "マジカルミライ 2026 ミニのぼり",
+          "priceText": "￥1,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_mininobori.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_mininobori.jpg?1"
+        },
+        {
+          "id": "goods-le-shopping-bag-30",
+          "name": "マジカルミライ 2026 ショッピングバッグ",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_shopping-bag.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_shopping-bag.jpg?1"
+        },
+        {
+          "id": "goods-le-kirakira-wristband-31",
+          "name": "マジカルミライ 2026 キラキラリストバンド(ランダム6種)",
+          "priceText": "￥800（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_kirakira-wristband.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_kirakira-wristband.jpg?1"
+        },
+        {
+          "id": "goods-le-gintape-holder-hamamatsu-32",
+          "name": "マジカルミライ 2026 銀テープストラップ(HAMAMATSU ver.)",
+          "priceText": "￥1,600（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_gintape-holder_hamamatsu.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_gintape-holder_hamamatsu.jpg?1"
+        },
+        {
+          "id": "goods-le-gintape-holder-osaka-33",
+          "name": "マジカルミライ 2026 銀テープストラップ(OSAKA ver.)",
+          "priceText": "￥1,600（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_gintape-holder_osaka.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_gintape-holder_osaka.jpg?1"
+        },
+        {
+          "id": "goods-le-gintape-holder-tokyo-34",
+          "name": "マジカルミライ 2026 銀テープストラップ(TOKYO ver.)",
+          "priceText": "￥1,600（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_gintape-holder_tokyo.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_gintape-holder_tokyo.jpg?1"
+        },
+        {
+          "id": "goods-le-deskmat-mv-35",
+          "name": "マジカルミライ 2026 デスクマット(メインビジュアル ver.)",
+          "priceText": "￥3,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_deskmat_mv.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_deskmat_mv.jpg?1"
+        },
+        {
+          "id": "goods-le-deskmat-sv-36",
+          "name": "マジカルミライ 2026 デスクマット(サブビジュアル ver.)",
+          "priceText": "￥3,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_deskmat_sv.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_deskmat_sv.jpg?1"
+        },
+        {
+          "id": "goods-le-can-badge-37",
+          "name": "マジカルミライ 2026 缶バッジ(ランダム11種)",
+          "priceText": "￥400（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_can-badge.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_can-badge.jpg?1"
+        },
+        {
+          "id": "goods-le-bucket-hat-38",
+          "name": "マジカルミライ 2026 バケットハット",
+          "priceText": "￥5,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_bucket-hat.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_bucket-hat.jpg?1"
+        },
+        {
+          "id": "goods-le-handyfan-neckstrap-39",
+          "name": "マジカルミライ 2026 ハンディファン＆ネックストラップ",
+          "priceText": "￥4,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_handyfan-neckstrap.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_handyfan-neckstrap.jpg?1"
+        },
+        {
+          "id": "goods-le-visual-book-40",
+          "name": "マジカルミライ 2026 ビジュアルブック",
+          "priceText": "￥2,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社ローソンエンタテインメント",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_le_visual-book.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_visual-book.jpg?1"
+        },
+        {
+          "id": "goods-taito-big-summer-ket-41",
+          "name": "初音ミク「マジカルミライ 2026」ひんやりBIGサマーケット",
+          "priceText": "￥4,300（税込）",
+          "area": "オフィシャルグッズ / 株式会社タイトー",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_taito_big-summer-ket.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_taito_big-summer-ket.jpg?1"
+        },
+        {
+          "id": "goods-taito-luminous-acrylic-badge-42",
+          "name": "初音ミク「マジカルミライ 2026」蓄光アクリルバッジ",
+          "priceText": "￥800（税込）",
+          "area": "オフィシャルグッズ / 株式会社タイトー",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_taito_luminous-acrylic-badge.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_taito_luminous-acrylic-badge.jpg?1"
+        },
+        {
+          "id": "goods-ensky-sleeve-set-43",
+          "name": "キャラクタースリーブセット マジカルミライ2026 A/B",
+          "priceText": "￥1,800（税込）",
+          "area": "オフィシャルグッズ / 株式会社エンスカイ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_ensky_sleeve-set.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_ensky_sleeve-set.jpg?1"
+        },
+        {
+          "id": "goods-arma-big-acrylic-stand-44",
+          "name": "マジカルミライ 2026 BIGアクリルスタンド（全11種）",
+          "priceText": "￥2,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社arma bianca",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_arma_big-acrylic-stand.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_arma_big-acrylic-stand.jpg?1"
+        },
+        {
+          "id": "goods-arma-mouse-pad-45",
+          "name": "マジカルミライ 2026 マウスパッド（全4種）",
+          "priceText": "￥2,000（税込）",
+          "area": "オフィシャルグッズ / 株式会社arma bianca",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_arma_mouse-pad.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_arma_mouse-pad.jpg?1"
+        },
+        {
+          "id": "goods-macby-ita-rack-46",
+          "name": "いたラック マジカルミライ 2026",
+          "priceText": "￥2,200（税込）",
+          "area": "オフィシャルグッズ / 株式会社マクビーカタガイ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_macby_ita-rack.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_macby_ita-rack.jpg?1"
+        },
+        {
+          "id": "goods-bright-churro-47",
           "name": "マジカルミライ 2026 カード付きチュロ（全7種）",
           "priceText": "￥1,500（税込）",
-          "area": "企業出展ブース",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "area": "企業出展ブース / 合同会社Bright",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_bright_churro.html",
           "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_bright_churro.jpg?1"
         },
         {
-          "id": "booth-scale-figure",
+          "id": "goods-coco-1-7figure-48",
           "name": "初音ミク「マジカルミライ 2026」Ver. 1/7スケールフィギュア",
           "priceText": "￥35,000（税込）",
-          "area": "企業出展ブース",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "area": "企業出展ブース / 株式会社デザインココ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_coco_1-7figure.html",
           "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_coco_1-7figure.jpg?1"
         },
         {
-          "id": "booth-glass-cloth",
+          "id": "goods-gsc-nendoroid-49",
+          "name": "ねんどろいど 初音ミク マジカルミライ 2025 Ver.",
+          "priceText": "￥8,000（税込）",
+          "area": "企業出展ブース / 株式会社グッドスマイルカンパニー",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_gsc_nendoroid.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_gsc_nendoroid.jpg?1"
+        },
+        {
+          "id": "goods-washin-glass-cloth-50",
           "name": "マジカルミライ 2026 グラスクロス全4種",
           "priceText": "￥1,100（税込）",
-          "area": "企業出展ブース / 一部HAMAMATSU限定",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "area": "企業出展ブース / 株式会社和真",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_washin_glass-cloth.html",
           "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_washin_glass-cloth.jpg?1"
         },
         {
-          "id": "booth-rubber-keychain",
+          "id": "goods-cospa-dry-hoodie-51",
+          "name": "マジカルミライ 2026 フルグラフィックドライパーカー",
+          "priceText": "￥11,000（税込）",
+          "area": "企業出展ブース / 株式会社コスパ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cospa_dry-hoodie.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_cospa_dry-hoodie.jpg?1"
+        },
+        {
+          "id": "goods-cospa-acrylic-art-stand-52",
+          "name": "初音ミク アクリルアートスタンド マジカルミライ 2026 Ver.＋ステッカーセット（Lowro）",
+          "priceText": "￥2,600（税込）",
+          "area": "企業出展ブース / 株式会社コスパ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cospa_acrylic-art-stand.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_cospa_acrylic-art-stand.jpg?1"
+        },
+        {
+          "id": "goods-cospa-tsumamare-53",
+          "name": "初音ミク つままれ マジカルミライ 2026 Ver.＋ステッカーセット",
+          "priceText": "￥1,100（税込）",
+          "area": "企業出展ブース / 株式会社コスパ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cospa_tsumamare.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_cospa_tsumamare.jpg?1"
+        },
+        {
+          "id": "goods-movic-clear-file-set-54",
+          "name": "クリアファイルセット（A～C全3種）",
+          "priceText": "￥800（税込）",
+          "area": "企業出展ブース / 株式会社ムービック",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_movic_clear-file-set.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_movic_clear-file-set.jpg?1"
+        },
+        {
+          "id": "goods-movic-rubber-keyholder-55",
           "name": "ラバーキーホルダー（13種）",
           "priceText": "￥700（税込）",
-          "area": "企業出展ブース / 一部HAMAMATSU限定",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "area": "企業出展ブース / 株式会社ムービック",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_movic_rubber-keyholder.html",
           "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_movic_rubber-keyholder.jpg?1"
         },
         {
-          "id": "capsule-assort",
-          "name": "初音ミク あそーと～マジカルミライ 2026～",
+          "id": "goods-movic-instax-print-56",
+          "name": "チェキプリント（10種）",
+          "priceText": "￥600（税込）",
+          "area": "企業出展ブース / 株式会社ムービック",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_movic_instax-print.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_movic_instax-print.jpg?1"
+        },
+        {
+          "id": "goods-bandai-assort-57",
+          "name": "初音ミク 初音ミクあそーと～マジカルミライ 2026～",
           "priceText": "￥500（税込）",
-          "area": "カプセルトイ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "area": "カプセルトイ / 株式会社バンダイ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_bandai_assort.html",
           "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_bandai_assort.jpg?1"
         },
         {
-          "id": "capsule-visual-poster",
+          "id": "goods-bandai-visual-poster-58",
           "name": "初音ミク クリアビジュアルポスター～マジカルミライ 2026～",
           "priceText": "￥200（税込）",
-          "area": "カプセルトイ",
-          "sourceLabel": "공식 굿즈",
-          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "area": "カプセルトイ / 株式会社バンダイ",
+          "sourceLabel": "公式 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_bandai_visual-poster.html",
           "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_bandai_visual-poster.jpg?1"
-        },
-        {
-          "id": "endepa-hmv-popup",
-          "name": "HMV POP UP SHOP 관련 굿즈",
-          "priceText": "가격 미확인",
-          "area": "遠鉄百貨店 / HMV POP UP SHOP",
-          "sourceLabel": "엔테츠백화점 특설",
-          "sourceUrl": "https://www.endepa.com/special/z8tkgt7ls_d"
-        },
-        {
-          "id": "endepa-rootote",
-          "name": "ROOTOTE トートバッグ",
-          "priceText": "가격 미확인",
-          "area": "遠鉄百貨店 콜라보",
-          "sourceLabel": "엔테츠백화점 특설",
-          "sourceUrl": "https://www.endepa.com/special/z8tkgt7ls_d"
         }
       ]
     }
