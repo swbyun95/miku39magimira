@@ -17,10 +17,22 @@
       "venue": "アクトシティ浜松",
       "venueMap": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
       "quickLinks": [
-        {"label": "공식", "url": "https://magicalmirai.com/2026/"},
-        {"label": "티켓", "url": "https://magicalmirai.com/2026/hamamatsu_ticket.html"},
-        {"label": "굿즈", "url": "https://magicalmirai.com/2026/goods.html"},
-        {"label": "하마마츠 특설", "url": "https://hamamatsu-excursion.com/"}
+        {
+          "label": "공식",
+          "url": "https://magicalmirai.com/2026/"
+        },
+        {
+          "label": "티켓",
+          "url": "https://magicalmirai.com/2026/hamamatsu_ticket.html"
+        },
+        {
+          "label": "굿즈",
+          "url": "https://magicalmirai.com/2026/goods.html"
+        },
+        {
+          "label": "하마마츠 특설",
+          "url": "https://hamamatsu-excursion.com/"
+        }
       ],
       "cards": [
         {
@@ -30,10 +42,16 @@
           "date": "2026-06-18 ~ 09-18",
           "place": "Yamaha Innovation Road",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamaha%20Innovation%20Road%20Hamamatsu",
-          "reservation": ["예약 필요", "무료"],
+          "reservation": [
+            "예약 필요",
+            "무료"
+          ],
           "description": "『初音ミクとボーカロイド』 특별전. 무료지만 사전예약이 필요합니다.",
           "links": [
-            {"label": "Yamaha 공식", "url": "https://www.yamaha.com/ja/about/experience/innovation-road/information/2026/00105/"}
+            {
+              "label": "Yamaha 공식",
+              "url": "https://www.yamaha.com/ja/about/experience/innovation-road/information/2026/00105/"
+            }
           ]
         },
         {
@@ -43,11 +61,19 @@
           "date": "2026-07-24 ~ 07-26",
           "place": "アクトシティ浜松",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
-          "reservation": ["공연 티켓 필요"],
+          "reservation": [
+            "공연 티켓 필요"
+          ],
           "description": "HAMAMATSU 공연·기획전 기본 정보입니다. 시간표와 입장 조건은 공식 사이트 기준으로 확인합니다.",
           "links": [
-            {"label": "공식 사이트", "url": "https://magicalmirai.com/2026/"},
-            {"label": "HAMAMATSU", "url": "https://magicalmirai.com/2026/hamamatsu.html"}
+            {
+              "label": "공식 사이트",
+              "url": "https://magicalmirai.com/2026/"
+            },
+            {
+              "label": "HAMAMATSU",
+              "url": "https://magicalmirai.com/2026/hamamatsu.html"
+            }
           ]
         },
         {
@@ -57,11 +83,21 @@
           "date": "2026-07-01 ~ 09-30 중심",
           "place": "신하마마츠역·니시카지마역 외",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shin-Hamamatsu%20Station",
-          "reservation": ["무료", "굿즈", "스탬프 랠리"],
+          "reservation": [
+            "무료",
+            "굿즈",
+            "스탬프 랠리"
+          ],
           "description": "디지털 스탬프 랠리, 헤드마크 운행, 1일 프리 티켓·鉄印·마그넷·클리어파일 판매가 포함됩니다.",
           "links": [
-            {"label": "엔테츠 안내", "url": "https://akaden.lekumo.biz/information/2026/05/2026-89c7.html"},
-            {"label": "스탬프 랠리", "url": "https://www.stamprally.net/qctmhuxlzlkklucv"}
+            {
+              "label": "엔테츠 안내",
+              "url": "https://akaden.lekumo.biz/information/2026/05/2026-89c7.html"
+            },
+            {
+              "label": "스탬프 랠리",
+              "url": "https://www.stamprally.net/qctmhuxlzlkklucv"
+            }
           ]
         },
         {
@@ -71,11 +107,20 @@
           "date": "2026-06-18 ~ 09-30 / 일부 12월 말",
           "place": "遠鉄百貨店",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
-          "reservation": ["무료", "굿즈"],
+          "reservation": [
+            "무료",
+            "굿즈"
+          ],
           "description": "HMV POP UP SHOP, 콜라보 교자, ROOTOTE 토트백, 특대 패널 포토스팟을 한 항목으로 묶었습니다.",
           "links": [
-            {"label": "엔테츠백화점 특설", "url": "https://www.endepa.com/special/z8tkgt7ls_d"},
-            {"label": "공식 콜라보", "url": "https://magicalmirai.com/2026/special_collabo_link.html"}
+            {
+              "label": "엔테츠백화점 특설",
+              "url": "https://www.endepa.com/special/z8tkgt7ls_d"
+            },
+            {
+              "label": "공식 콜라보",
+              "url": "https://magicalmirai.com/2026/special_collabo_link.html"
+            }
           ]
         },
         {
@@ -85,11 +130,19 @@
           "date": "2026-07-01 ~ 09-30",
           "place": "하마마츠역 북쪽 キタラ 외",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hamamatsu%20Station%20Kitara",
-          "reservation": ["정보 추후공개"],
+          "reservation": [
+            "정보 추후공개"
+          ],
           "description": "관광맵, PR 포스터, 캐릭터 패널, 시내 장식 등은 추가 공개 가능성이 있습니다.",
           "links": [
-            {"label": "하마마츠시 발표", "url": "https://www.city.hamamatsu.shizuoka.jp/shise/koho/koho/hodohappyo/2026/5/2908.html"},
-            {"label": "하마마츠 특설", "url": "https://hamamatsu-excursion.com/"}
+            {
+              "label": "하마마츠시 발표",
+              "url": "https://www.city.hamamatsu.shizuoka.jp/shise/koho/koho/hodohappyo/2026/5/2908.html"
+            },
+            {
+              "label": "하마마츠 특설",
+              "url": "https://hamamatsu-excursion.com/"
+            }
           ]
         },
         {
@@ -99,24 +152,245 @@
           "date": "2026-07-24 ~ 07-26",
           "place": "HAMAMATSU 기획전 회장",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
-          "reservation": ["전시회 티켓 필요"],
+          "reservation": [
+            "전시회 티켓 필요"
+          ],
           "description": "워크숍, KARENT Creators Market, 기업부스, 회장 내 스테이지는 기획전 티켓 조건을 기준으로 확인합니다.",
           "links": [
-            {"label": "기획전", "url": "https://magicalmirai.com/2026/hamamatsu_ex.html"},
-            {"label": "스테이지", "url": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-            {"label": "부스", "url": "https://magicalmirai.com/2026/hamamatsu_sponsor.html"}
+            {
+              "label": "기획전",
+              "url": "https://magicalmirai.com/2026/hamamatsu_ex.html"
+            },
+            {
+              "label": "스테이지",
+              "url": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+            },
+            {
+              "label": "부스",
+              "url": "https://magicalmirai.com/2026/hamamatsu_sponsor.html"
+            }
           ]
         }
       ],
       "stage": [
-        {"time": "07-24 14:30", "title": "하마마츠 개최 기념 토크", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-24 16:30", "title": "하마마츠 스페셜 콜라보 스테이지", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-25 11:00", "title": "KAITO 20th 기념 촬영회", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-25 14:30", "title": "TextAlive / 프로그래밍 콘테스트 발표", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-25 17:00", "title": "하마마츠 스페셜 콜라보 스테이지", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-26 12:00", "title": "하마마츠 스페셜 콜라보 스테이지", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-26 14:30", "title": "初音ミク V6 노래 레슨", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"},
-        {"time": "07-26 16:00", "title": "VOCALOID를 시작하자", "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"}
+        {
+          "time": "07-24 14:30",
+          "title": "하마마츠 개최 기념 토크",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-24 16:30",
+          "title": "하마마츠 스페셜 콜라보 스테이지",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-25 11:00",
+          "title": "KAITO 20th 기념 촬영회",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-25 14:30",
+          "title": "TextAlive / 프로그래밍 콘테스트 발표",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-25 17:00",
+          "title": "하마마츠 스페셜 콜라보 스테이지",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-26 12:00",
+          "title": "하마마츠 스페셜 콜라보 스테이지",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-26 14:30",
+          "title": "初音ミク V6 노래 레슨",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        },
+        {
+          "time": "07-26 16:00",
+          "title": "VOCALOID를 시작하자",
+          "link": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        }
+      ],
+      "goods": [
+        {
+          "id": "official-tshirt-hamamatsu",
+          "name": "マジカルミライ 2026 オフィシャルTシャツ(HAMAMATSU ver.)",
+          "priceText": "￥4,000（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_officialT-hamamatsu.jpg?1"
+        },
+        {
+          "id": "official-fullgraphic-tshirt",
+          "name": "マジカルミライ 2026 フルグラフィックTシャツ",
+          "priceText": "￥6,100（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_fullgT.jpg?1"
+        },
+        {
+          "id": "official-muffler-towel-miku",
+          "name": "マジカルミライ 2026 マフラータオル(初音ミク ver.)",
+          "priceText": "￥2,300（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_muffler-towel_miku.jpg?1"
+        },
+        {
+          "id": "official-penlight",
+          "name": "マジカルミライ 2026 ペンライト",
+          "priceText": "￥3,700（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_penlight.jpg?1"
+        },
+        {
+          "id": "official-ringlight",
+          "name": "マジカルミライ 2026 リングライト",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_ring-light.jpg?1"
+        },
+        {
+          "id": "official-shopping-bag",
+          "name": "マジカルミライ 2026 ショッピングバッグ",
+          "priceText": "￥1,500（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_shopping-bag.jpg?1"
+        },
+        {
+          "id": "official-silver-tape-hamamatsu",
+          "name": "マジカルミライ 2026 銀テープストラップ(HAMAMATSU ver.)",
+          "priceText": "￥1,600（税込）",
+          "area": "オフィシャルグッズ / HAMAMATSU限定",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_gintape-holder_hamamatsu.jpg?1"
+        },
+        {
+          "id": "official-visual-book",
+          "name": "マジカルミライ 2026 ビジュアルブック",
+          "priceText": "￥2,000（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_visual-book.jpg?1"
+        },
+        {
+          "id": "official-can-badge",
+          "name": "マジカルミライ 2026 缶バッジ(ランダム11種)",
+          "priceText": "￥400（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_can-badge.jpg?1"
+        },
+        {
+          "id": "official-bucket-hat",
+          "name": "マジカルミライ 2026 バケットハット",
+          "priceText": "￥5,000（税込）",
+          "area": "オフィシャルグッズ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_le_bucket-hat.jpg?1"
+        },
+        {
+          "id": "official-album-goods",
+          "name": "初音ミク「マジカルミライ 2026」OFFICIAL ALBUM [グッズ付き限定盤]",
+          "priceText": "￥5,350（税込）",
+          "area": "オフィシャルCDアルバム",
+          "sourceLabel": "공식 CD",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cd.html"
+        },
+        {
+          "id": "official-album-limited",
+          "name": "初音ミク「マジカルミライ 2026」OFFICIAL ALBUM [限定盤]",
+          "priceText": "￥2,600（税込）",
+          "area": "オフィシャルCDアルバム",
+          "sourceLabel": "공식 CD",
+          "sourceUrl": "https://magicalmirai.com/2026/goods_cd.html"
+        },
+        {
+          "id": "booth-card-churro",
+          "name": "マジカルミライ 2026 カード付きチュロ（全7種）",
+          "priceText": "￥1,500（税込）",
+          "area": "企業出展ブース",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_bright_churro.jpg?1"
+        },
+        {
+          "id": "booth-scale-figure",
+          "name": "初音ミク「マジカルミライ 2026」Ver. 1/7スケールフィギュア",
+          "priceText": "￥35,000（税込）",
+          "area": "企業出展ブース",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_coco_1-7figure.jpg?1"
+        },
+        {
+          "id": "booth-glass-cloth",
+          "name": "マジカルミライ 2026 グラスクロス全4種",
+          "priceText": "￥1,100（税込）",
+          "area": "企業出展ブース / 一部HAMAMATSU限定",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_washin_glass-cloth.jpg?1"
+        },
+        {
+          "id": "booth-rubber-keychain",
+          "name": "ラバーキーホルダー（13種）",
+          "priceText": "￥700（税込）",
+          "area": "企業出展ブース / 一部HAMAMATSU限定",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_movic_rubber-keyholder.jpg?1"
+        },
+        {
+          "id": "capsule-assort",
+          "name": "初音ミク あそーと～マジカルミライ 2026～",
+          "priceText": "￥500（税込）",
+          "area": "カプセルトイ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_bandai_assort.jpg?1"
+        },
+        {
+          "id": "capsule-visual-poster",
+          "name": "初音ミク クリアビジュアルポスター～マジカルミライ 2026～",
+          "priceText": "￥200（税込）",
+          "area": "カプセルトイ",
+          "sourceLabel": "공식 굿즈",
+          "sourceUrl": "https://magicalmirai.com/2026/goods.html",
+          "imageUrl": "https://magicalmirai.com/2026/images/goods/goods_bandai_visual-poster.jpg?1"
+        },
+        {
+          "id": "endepa-hmv-popup",
+          "name": "HMV POP UP SHOP 관련 굿즈",
+          "priceText": "가격 미확인",
+          "area": "遠鉄百貨店 / HMV POP UP SHOP",
+          "sourceLabel": "엔테츠백화점 특설",
+          "sourceUrl": "https://www.endepa.com/special/z8tkgt7ls_d"
+        },
+        {
+          "id": "endepa-rootote",
+          "name": "ROOTOTE トートバッグ",
+          "priceText": "가격 미확인",
+          "area": "遠鉄百貨店 콜라보",
+          "sourceLabel": "엔테츠백화점 특설",
+          "sourceUrl": "https://www.endepa.com/special/z8tkgt7ls_d"
+        }
       ]
     }
   ]
