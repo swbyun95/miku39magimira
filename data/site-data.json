@@ -4,7 +4,7 @@
     "subtitle": "공식 정보, 예약 필요 항목, 현지 콜라보만 간단히 모아봅니다.",
     "dataVersion": "2026-06-22-v3-clean",
     "lastUpdated": "2026-06-22",
-    "notice": "공식 링크가 있는 정보만 표시합니다. 예약·티켓 필요 여부는 배지를 확인하세요."
+    "notice": "공식 링크가 있는 정보만 표시합니다. 공연·전시회·하마마츠 콜라보·공식 콜라보 기준으로 정리합니다."
   },
   "editions": [
     {
@@ -24,29 +24,13 @@
       ],
       "cards": [
         {
-          "id": "ticket",
-          "priority": true,
-          "section": "필수",
-          "title": "티켓·입장 조건 확인",
-          "date": "행사 전 필수",
-          "place": "라이브 / 기획전 / 공식물판",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
-          "reservation": "티켓 필요",
-          "description": "HAMAMATSU 공식물판은 기획전 회장 안쪽 판매로 구분됩니다. OSAKA/TOKYO 회장수령 예약과 혼동하지 않도록 확인이 필요합니다.",
-          "links": [
-            {"label": "중요 안내", "url": "https://magicalmirai.com/2026/info_important.html"},
-            {"label": "HAMAMATSU 티켓", "url": "https://magicalmirai.com/2026/hamamatsu_ticket.html"}
-          ]
-        },
-        {
           "id": "yamaha",
-          "priority": true,
-          "section": "필수",
+          "section": "하마마츠 콜라보",
           "title": "Yamaha 특별전 예약",
           "date": "2026-06-18 ~ 09-18",
           "place": "Yamaha Innovation Road",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Yamaha%20Innovation%20Road%20Hamamatsu",
-          "reservation": "사전예약 필요 / 무료",
+          "reservation": ["예약 필요", "무료"],
           "description": "『初音ミクとボーカロイド』 특별전. 무료지만 사전예약이 필요합니다.",
           "links": [
             {"label": "Yamaha 공식", "url": "https://www.yamaha.com/ja/about/experience/innovation-road/information/2026/00105/"}
@@ -54,12 +38,12 @@
         },
         {
           "id": "official",
-          "section": "공식",
+          "section": "공연",
           "title": "Magical Mirai 2026 HAMAMATSU",
           "date": "2026-07-24 ~ 07-26",
           "place": "アクトシティ浜松",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
-          "reservation": "티켓 필요",
+          "reservation": ["공연 티켓 필요"],
           "description": "HAMAMATSU 공연·기획전 기본 정보입니다. 시간표와 입장 조건은 공식 사이트 기준으로 확인합니다.",
           "links": [
             {"label": "공식 사이트", "url": "https://magicalmirai.com/2026/"},
@@ -68,12 +52,12 @@
         },
         {
           "id": "entetsu",
-          "section": "현지 콜라보",
+          "section": "하마마츠 콜라보",
           "title": "遠州鉄道 콜라보",
           "date": "2026-07-01 ~ 09-30 중심",
           "place": "신하마마츠역·니시카지마역 외",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shin-Hamamatsu%20Station",
-          "reservation": "예약 없음 / 일부 구매",
+          "reservation": ["무료", "굿즈", "스탬프 랠리"],
           "description": "디지털 스탬프 랠리, 헤드마크 운행, 1일 프리 티켓·鉄印·마그넷·클리어파일 판매가 포함됩니다.",
           "links": [
             {"label": "엔테츠 안내", "url": "https://akaden.lekumo.biz/information/2026/05/2026-89c7.html"},
@@ -82,12 +66,12 @@
         },
         {
           "id": "endepa",
-          "section": "현지 콜라보",
+          "section": "하마마츠 콜라보",
           "title": "遠鉄百貨店 콜라보",
           "date": "2026-06-18 ~ 09-30 / 일부 12월 말",
           "place": "遠鉄百貨店",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
-          "reservation": "입장 무료 / 일부 구매",
+          "reservation": ["무료", "굿즈"],
           "description": "HMV POP UP SHOP, 콜라보 교자, ROOTOTE 토트백, 특대 패널 포토스팟을 한 항목으로 묶었습니다.",
           "links": [
             {"label": "엔테츠백화점 특설", "url": "https://www.endepa.com/special/z8tkgt7ls_d"},
@@ -96,12 +80,12 @@
         },
         {
           "id": "city-pr",
-          "section": "현지 콜라보",
+          "section": "하마마츠 콜라보",
           "title": "하마마츠시 PR 기획",
           "date": "2026-07-01 ~ 09-30",
           "place": "하마마츠역 북쪽 キタラ 외",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hamamatsu%20Station%20Kitara",
-          "reservation": "일부 추후공개",
+          "reservation": ["정보 추후공개"],
           "description": "관광맵, PR 포스터, 캐릭터 패널, 시내 장식 등은 추가 공개 가능성이 있습니다.",
           "links": [
             {"label": "하마마츠시 발표", "url": "https://www.city.hamamatsu.shizuoka.jp/shise/koho/koho/hodohappyo/2026/5/2908.html"},
@@ -110,12 +94,12 @@
         },
         {
           "id": "venue-programs",
-          "section": "회장",
+          "section": "전시회",
           "title": "기획전 안 프로그램",
           "date": "2026-07-24 ~ 07-26",
           "place": "HAMAMATSU 기획전 회장",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
-          "reservation": "기획전 티켓 필요",
+          "reservation": ["전시회 티켓 필요"],
           "description": "워크숍, KARENT Creators Market, 기업부스, 회장 내 스테이지는 기획전 티켓 조건을 기준으로 확인합니다.",
           "links": [
             {"label": "기획전", "url": "https://magicalmirai.com/2026/hamamatsu_ex.html"},
