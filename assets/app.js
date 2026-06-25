@@ -1,7 +1,7 @@
 const AppConfig={
   dataUrl:'data/site-data.json?ts='+Date.now(),
   storage:{notes:'miku-hub-notes-v2',checklist:'miku-trip-checklist-v1'},
-  pages:{home:'',goods:'굿즈 모아보기',expo:'전시회 정보',market:'크리에이터즈 마켓',checklist:'여행 체크리스트'},
+  pages:{home:'',goods:'굿즈 모아보기',album:'앨범 수록곡',expo:'전시회 정보',market:'크리에이터즈 마켓',checklist:'여행 체크리스트'},
   filters:['전체','공연','전시회','하마마츠 콜라보','공식 콜라보'],
   defaultChecks:['마지미라 티켓 당첨 확인','티켓값 정산 확인','비행기 예약 확인','비행기 정산 확인','숙소 예약 확인','숙소 정산 확인','VISIT JAPAN 작성 확인','여권 확인','엔화 결제 가능한 수단 확인','엔화 환전 확인'],
   boothTranslations:{A1:'카나데노모리 리조트',A2:'인터넷 주식회사',A3:'무빅',A4:'포켓몬 feat. 하츠네 미쿠 VOLTAGE Live! 블루레이',A5:'하츠네 미쿠 심포니 2026',A6:'츄러스 제조소',B1:'세가 페이브',B2:'디자인 코코',B3:'이타랙',B4:'굿스마일 컴퍼니',B5:'피아프로 캐릭터즈 × OZaKKa 오시활 숍',B6:'보크스',B7:'ETERNO RÉCIT 에테르노 레시',C1:'코코라보 & 솔와',C2:'타마조',C3:'와신 팔레트',C4:'Gift 인형 제조사',C5:'크립톤 디지털 콘텐츠 팀',C6:'Desktop Mate',C7:'크립톤 SONICWIRE 팀',C8:'Domingo 부스',C9:'MIKU EXPO 굿즈 판매 부스',C10:'유키미쿠 스카이타운 출장소',D1:'bilibiliGoods',D2:'ESP 기타 메이커',D3:'야마하 뮤직 재팬',D4:'CRECO 휴넷',D5:'코스파',E1:'다이하츠 비즈니스 서포트 센터','ガチャ':'반다이'}
@@ -24,6 +24,7 @@ function normalizeData(raw){
         cards,
         stagePrograms:raw.stagePrograms||[],
         goods:raw.goods||[],
+        albumTracks:raw.albumTracks||[],
         expoBooths:raw.booths?.expo||[],
         creatorMarket:raw.booths?.creatorMarket||[]
       }
@@ -37,6 +38,7 @@ function normalizeData(raw){
       cards:edition.cards||[],
       stagePrograms:edition.stage||[],
       goods:edition.goods||[],
+      albumTracks:edition.albumTracks||[],
       expoBooths:edition.expoBooths||[],
       creatorMarket:edition.creatorMarket||[]
     }
@@ -83,7 +85,7 @@ const Render={
     $('quickUpdated').textContent=site.lastUpdated;
     $('noticeText').textContent=site.notice;
     $('quickLinks').innerHTML=(edition.quickLinks||[]).map(link=>`<a class="mini" target="_blank" rel="noopener" href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`).join('');
-    this.filters();this.cards();this.stage();this.goods();this.expoBooths();this.creatorMarket();this.checklist();this.notes();
+    this.filters();this.cards();this.stage();this.goods();this.albumTracks();this.expoBooths();this.creatorMarket();this.checklist();this.notes();
   },
   page(page){
     Object.keys(AppConfig.pages).forEach(key=>$(key+'Page').classList.toggle('hidden',page!==key));
@@ -117,6 +119,11 @@ const Render={
     $('goodsTotal').classList.toggle('show',selected.length>0);
     $('goodsTotalMain').textContent=`선택 ${selected.length}개 · 총액 ¥${yen(total)}`;
     $('goodsTotalSub').textContent=`세금 상당액 ¥${yen(tax)} · 가격 없는 항목 ${selected.length-priced}개 제외 · 일본 소비세 10% 기준`;
+  },
+  albumTracks(){
+    let tracks=AppState.model.content.albumTracks||[];
+    $('albumCount').textContent=`${tracks.length}곡`;
+    $('albumTrackList').innerHTML=tracks.length?tracks.map(track=>`<article class="info-row"><div class="info-no">${String(track.trackNumber).padStart(2,'0')}</div><div><div class="info-name">${escapeHtml(track.title)}</div><div class="info-meta">${escapeHtml(track.artist)}${track.note?` · ${escapeHtml(track.note)}`:''}</div><div class="links"><a class="link" target="_blank" rel="noopener" href="${escapeHtml(track.youtubeUrl||track.youtubeSearchUrl)}">${track.youtubeUrl?'YouTube':'YouTube 검색'}</a><a class="link" target="_blank" rel="noopener" href="${escapeHtml(track.sourceUrl)}">앨범 공식</a></div></div></article>`).join(''):'<div class="empty">앨범 수록곡 정보가 없습니다.</div>';
   },
   expoBooths(){
     let booths=AppState.model.content.expoBooths;

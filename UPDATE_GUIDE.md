@@ -101,6 +101,7 @@
 - `collaborations`: 하마마츠 현지 콜라보 또는 공식 콜라보
 - `stagePrograms`: 회장 안 프로그램 시간표
 - `goods`: 굿즈 목록
+- `albumTracks`: 공식 앨범 수록곡과 영상/검색 링크
 - `booths.expo`: 전시회 출전 부스
 - `booths.creatorMarket`: 크리에이터즈 마켓
 
@@ -135,6 +136,18 @@
 - `sourceLabel`: 출처 버튼 라벨
 - `sourceUrl`: 공식 링크
 - `imageUrl`: 이미지 URL
+
+## albumTracks 필드
+
+- `id`: 고유 id
+- `eventId`: 연결된 행사 id
+- `trackNumber`: 앨범 트랙 번호
+- `title`: 원문 곡명
+- `artist`: 원문 작가/보컬 표기
+- `note`: 테마송, 보너스트랙 등 공식 주석
+- `youtubeUrl`: 공식/작가 YouTube 영상 직접 링크가 확인된 경우
+- `youtubeSearchUrl`: 직접 링크가 불확실할 때 사용하는 YouTube 검색 링크
+- `sourceUrl`: 공식 앨범 페이지
 
 ## booths 필드
 
@@ -177,6 +190,7 @@ https://www.google.com/maps/search/?api=1&query=Shin-Hamamatsu%20Station
    - 현지/공식 콜라보: `collaborations`
    - 회장 안 시간표: `stagePrograms`
    - 굿즈: `goods`
+   - 앨범 수록곡: `albumTracks`
    - 전시회 출전 부스: `booths.expo`
    - 크리에이터즈 마켓: `booths.creatorMarket`
 4. `site.lastUpdated`를 업데이트한 날짜로 바꾼다.

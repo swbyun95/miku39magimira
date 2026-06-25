@@ -85,6 +85,17 @@ function checkGoods(item, label) {
   checkUrl(item.imageUrl, `${label}.imageUrl`);
 }
 
+function checkAlbumTrack(item, label) {
+  requireString(item.id, `${label}.id`);
+  requireString(item.eventId, `${label}.eventId`);
+  if (!Number.isInteger(item.trackNumber)) fail(`${label}.trackNumber must be an integer`);
+  requireString(item.title, `${label}.title`);
+  requireString(item.artist, `${label}.artist`);
+  checkUrl(item.youtubeUrl, `${label}.youtubeUrl`);
+  checkUrl(item.youtubeSearchUrl, `${label}.youtubeSearchUrl`, true);
+  checkUrl(item.sourceUrl, `${label}.sourceUrl`, true);
+}
+
 function checkBooth(item, label, market = false) {
   requireString(item.eventId, `${label}.eventId`);
   requireString(item.number, `${label}.number`);
@@ -124,6 +135,7 @@ if (data) {
   requireArray(data.collaborations, 'collaborations');
   requireArray(data.stagePrograms, 'stagePrograms');
   requireArray(data.goods, 'goods');
+  requireArray(data.albumTracks, 'albumTracks');
   if (!isObject(data.booths)) fail('booths must be an object');
   else {
     requireArray(data.booths.expo, 'booths.expo');
@@ -154,6 +166,7 @@ if (data) {
     checkUrl(item.link, `stagePrograms[${index}].link`, true);
   });
   (data.goods || []).forEach((item, index) => checkGoods(item, `goods[${index}]`));
+  (data.albumTracks || []).forEach((item, index) => checkAlbumTrack(item, `albumTracks[${index}]`));
   (data.booths?.expo || []).forEach((item, index) => checkBooth(item, `booths.expo[${index}]`));
   (data.booths?.creatorMarket || []).forEach((item, index) => checkBooth(item, `booths.creatorMarket[${index}]`, true));
 
@@ -161,11 +174,13 @@ if (data) {
   checkUnique(data.places || [], item => item.id, 'places');
   checkUnique([...(data.programs || []), ...(data.collaborations || [])], item => item.id, 'cards');
   checkUnique(data.goods || [], item => item.id, 'goods');
+  checkUnique(data.albumTracks || [], item => item.id, 'albumTracks');
 
   const counts = {
     cards: (data.programs || []).length + (data.collaborations || []).length,
     stagePrograms: (data.stagePrograms || []).length,
     goods: (data.goods || []).length,
+    albumTracks: (data.albumTracks || []).length,
     expoBooths: (data.booths?.expo || []).length,
     creatorMarket: (data.booths?.creatorMarket || []).length
   };
