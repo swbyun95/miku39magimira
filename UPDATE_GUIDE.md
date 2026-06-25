@@ -90,9 +90,25 @@
 - `스탬프 랠리`: 스탬프 랠리 형식의 행사
 - `정보 추후공개`: 공식 예고는 있으나 상세 정보가 아직 부족한 경우
 
-## 카드 필드
+## JSON 구조
 
-각 카드는 아래 필드를 유지한다.
+`site-data.json`은 화면 모양이 아니라 정보 종류 기준으로 나눈다.
+
+- `site`: 사이트 공통 정보, 데이터 버전, 업데이트일
+- `events`: 행사 자체 정보
+- `places`: 장소와 지도 링크
+- `programs`: 공연/전시회처럼 행사 본체와 직접 연결된 정보
+- `collaborations`: 하마마츠 현지 콜라보 또는 공식 콜라보
+- `stagePrograms`: 회장 안 프로그램 시간표
+- `goods`: 굿즈 목록
+- `booths.expo`: 전시회 출전 부스
+- `booths.creatorMarket`: 크리에이터즈 마켓
+
+현재 UI는 `programs`와 `collaborations`를 `displayOrder` 순서대로 합쳐서 카드로 보여준다.
+
+## programs / collaborations 필드
+
+행사 정보 카드는 `programs` 또는 `collaborations`에 넣는다. 각 항목은 아래 필드를 유지한다.
 
 - `id`: 영문 소문자와 하이픈 사용
 - `section`: 위 section 분류 중 하나
@@ -103,8 +119,37 @@
 - `reservation`: 라벨 배열
 - `description`: 핵심 설명 1~2문장
 - `links`: 공식 출처 링크 배열
+- `eventId`: 연결된 행사 id
+- `placeId`: 연결된 장소 id
+- `displayOrder`: 홈 카드 표시 순서
 
 현재 UI는 `priority` 필드를 사용하지 않는다. 예전 자료에 `priority`가 있더라도 새 카드에는 추가하지 않는다.
+
+## goods 필드
+
+- `id`: 고유 id
+- `eventId`: 연결된 행사 id
+- `name`: 원문 굿즈명
+- `priceText`: 원문 가격 표기
+- `area`: 판매 구역/판매처
+- `sourceLabel`: 출처 버튼 라벨
+- `sourceUrl`: 공식 링크
+- `imageUrl`: 이미지 URL
+
+## booths 필드
+
+전시회 출전 부스는 `booths.expo`, 크리에이터즈 마켓은 `booths.creatorMarket`에 넣는다.
+
+- `number`: 부스 번호
+- `name`: 원문 부스명
+- `items`: 주요 판매품목 또는 설명
+- `links`: 공식/관련 링크
+- `eventId`: 연결된 행사 id
+
+크리에이터즈 마켓은 추가로 아래 필드를 쓴다.
+
+- `days`: 참가일 배열
+- `members`: 참가자 배열
 
 ## Google 지도 기준
 
@@ -127,13 +172,19 @@ https://www.google.com/maps/search/?api=1&query=Shin-Hamamatsu%20Station
 
 1. 위 키워드로 공식 출처를 우선 검색한다.
 2. 새 정보가 기존 카드와 중복인지 확인한다.
-3. UI 구조를 임의로 바꾸지 않고 `data/site-data.json`의 `cards`만 추가/수정한다.
+3. UI 구조를 임의로 바꾸지 않고 `data/site-data.json`의 해당 영역만 추가/수정한다.
+   - 공연/전시회: `programs`
+   - 현지/공식 콜라보: `collaborations`
+   - 회장 안 시간표: `stagePrograms`
+   - 굿즈: `goods`
+   - 전시회 출전 부스: `booths.expo`
+   - 크리에이터즈 마켓: `booths.creatorMarket`
 4. `site.lastUpdated`를 업데이트한 날짜로 바꾼다.
 5. 날짜, 예약 필요 여부, 공식 링크가 부족한 정보는 `정보 추후공개`로만 제한해서 넣거나 보류한다.
-6. JSON 문법을 확인한다.
+6. 데이터 검증 스크립트를 실행한다.
 
 ```powershell
-node -e "JSON.parse(require('fs').readFileSync('data/site-data.json','utf8')); console.log('json ok')"
+node scripts/validate-data.js
 ```
 
 7. 로컬 서버에서 확인한다.
