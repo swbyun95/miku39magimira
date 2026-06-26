@@ -3,7 +3,7 @@
   "site": {
     "title": "39 행사 HUB",
     "subtitle": "공식 정보, 예약 필요 항목, 현지 콜라보만 간단히 모아봅니다.",
-    "dataVersion": "2026-06-26-v7-album-tracks",
+    "dataVersion": "2026-06-26-v8-sugakiya-collab",
     "lastUpdated": "2026-06-26",
     "notice": "공식 링크가 있는 정보만 표시합니다. 공연·전시회·하마마츠 콜라보·공식 콜라보 기준으로 정리합니다."
   },
@@ -240,6 +240,31 @@
       "eventId": "magical-mirai-2026-hamamatsu",
       "displayOrder": 4,
       "placeId": "place-4"
+    },
+    {
+      "id": "sugakiya-miku-80th",
+      "section": "공식 콜라보",
+      "title": "初音ミク × スガキヤ 80주년 콜라보",
+      "date": "2026-07-02 ~ 재고 소진 시",
+      "place": "スガキヤ 전점 / 온라인 스토어",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sugakiya",
+      "reservation": [
+        "굿즈",
+        "무료"
+      ],
+      "description": "스가키야 창업 80주년 기념 콜라보. 7/2부터 SUMMER BAG 예약 접수, 7/16부터 한정 굿즈 판매, 7/30부터 콜라보 메뉴 'スーちゃんフラッペ ミクのマジカルシャインマスカット' 판매가 순차 진행됩니다.",
+      "links": [
+        {
+          "label": "스가키야 공식",
+          "url": "https://www.sugakico.co.jp/news/260625hatsunemikucollab/"
+        },
+        {
+          "label": "온라인 스토어",
+          "url": "https://www.sugakiyagoods.com/"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 6
     }
   ],
   "stagePrograms": [
