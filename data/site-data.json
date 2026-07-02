@@ -3,7 +3,7 @@
   "site": {
     "title": "39 행사 HUB",
     "subtitle": "공식 정보, 예약 필요 항목, 현지 콜라보만 간단히 모아봅니다.",
-    "dataVersion": "2026-07-02-v10-hamamatsu-collab-sync",
+    "dataVersion": "2026-07-02-v12-complete-crosscheck",
     "lastUpdated": "2026-07-02",
     "notice": "공식 링크가 있는 정보만 표시합니다. 공연·전시회·하마마츠 콜라보·공식 콜라보 기준으로 정리합니다."
   },
@@ -105,26 +105,34 @@
     {
       "id": "venue-programs",
       "section": "전시회",
-      "title": "기획전 안 프로그램",
+      "title": "HAMAMATSU 기획전 정보",
       "date": "2026-07-24 ~ 07-26",
-      "place": "HAMAMATSU 기획전 회장",
+      "place": "アクトシティ浜松 展示イベントホール / コングレスセンター2・3F",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Act%20City%20Hamamatsu",
       "reservation": [
         "전시회 티켓 필요"
       ],
-      "description": "워크숍, KARENT Creators Market, 기업부스, 회장 내 스테이지는 기획전 티켓 조건을 기준으로 확인합니다.",
+      "description": "企画展は各日9:00~18:00（最終入場17:30）、チケットは1,000円（税込）。入場特典は招待状風封筒＋楽譜カードセット。主催展示、ファンファンエリア、みんなで祝い花、LovePiano feat. HATSUNE MIKU展示、有料/無料ワークショップ、公式物販、出展ブース、クリエイターズマーケット、企画展ステージを実施。企画展ステージ・出展ブースがある会場への入場には有料の企画展チケットが必要です。",
       "links": [
         {
-          "label": "기획전",
+          "label": "기획전 공식",
           "url": "https://magicalmirai.com/2026/hamamatsu_ex.html"
         },
         {
-          "label": "스테이지",
-          "url": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+          "label": "전시회 티켓",
+          "url": "https://magicalmirai.com/2026/hamamatsu_ticket.html#ticket_ex"
         },
         {
-          "label": "부스",
+          "label": "출전 부스",
           "url": "https://magicalmirai.com/2026/hamamatsu_sponsor.html"
+        },
+        {
+          "label": "크리에이터즈 마켓",
+          "url": "https://magicalmirai.com/2026/hamamatsu_exmarket.html"
+        },
+        {
+          "label": "기획전 스테이지",
+          "url": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
         }
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
@@ -144,7 +152,7 @@
         "예약 필요",
         "무료"
       ],
-      "description": "Yamaha Innovation Road 특별전 「初音ミクとボーカロイド」. VOCALOID 기술과 피아프로 캐릭터 관련 전시, 등신대 캐릭터 패널, 노벨티 프레ゼント 기획이 예고되어 있습니다. 무료지만 사전예약이 필요합니다.",
+      "description": "Yamaha Innovation Road 특별전 「初音ミクとボーカロイド」. VOCALOID 기술과 피아프로 캐릭터 관련 전시, 등신대 캐릭터 패널, 숫자 수집형 스티커 노벨티 기획을 진행합니다. 7/24~7/25에는 「マジカルミライ 2025」 라이브 영상도 관내에서 상영됩니다. 무료지만 견학은 사전예약제입니다.",
       "links": [
         {
           "label": "Yamaha 공식",
@@ -171,7 +179,7 @@
         "굿즈",
         "스탬프 랠리"
       ],
-      "description": "デジタルスタンプラリー、ヘッドマーク掲出、コラボグッズ販売の3企画。スタンプポイントは新浜松駅、アクトタワー展望回廊、浜松科学館みらいーら、浜松市楽器博物館、遠鉄百貨店、八幡駅、浜松城、西鹿島駅、天竜浜名湖線 天竜二俣駅。達成ノベルティ受取は浜松市観光インフォメーションセンター、遠州鉄道 鉄道営業所、天竜浜名湖鉄道 天竜二俣駅。ヘッドマークは2003号・2009号に掲出予定。グッズはあかでん1日フリー切符、鉄印、マグネット、クリアファイル。",
+      "description": "デジタルスタンプラリー、ヘッドマーク掲出、コラボグッズ販売の3企画。スタンプポイントは新浜松駅、アクトタワー展望回廊、浜松科学館みらいーら、浜松市楽器博物館（~7/10休館）、遠鉄百貨店、八幡駅、浜松城、西鹿島駅、天竜浜名湖線 天竜二俣駅。達成ノベルティ受取は浜松市観光インフォメーションセンター、遠州鉄道 鉄道営業所、天竜浜名湖鉄道 天竜二俣駅。ヘッドマークは2003号・2009号に掲出予定。グッズはあかでん1日フリー切符、鉄印、マグネット、クリアファイル。販売場所は浜松駅・第一通り駅・上島駅・浜北駅・西鹿島駅・鉄道営業所（西ヶ崎駅隣り）など。駅窓口販売は現金のみ。",
       "links": [
         {
           "label": "엔테츠 안내",
@@ -197,15 +205,16 @@
     {
       "id": "endepa",
       "section": "하마마츠 콜라보",
-      "title": "遠鉄百貨店 콜라보",
-      "date": "2026-07-22 ~ 07-28 / ?? 12? ?",
+      "title": "遠鉄百貨店 오리지널 상품/포토스팟",
+      "date": "2026-06-18 ~ 12월 말 예정",
       "place": "遠鉄百貨店",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Entetsu%20Department%20Store%20Hamamatsu",
       "reservation": [
         "무료",
-        "굿즈"
+        "굿즈",
+        "스탬프 랠리"
       ],
-      "description": "遠鉄百貨店 본관 8층에서 HMV POP UP SHOP을 개최합니다. 7/24~7/26은 POP UP SHOP 오리지널 굿즈 판매만 진행됩니다. 엔테츠백화점 콜라보는 오리지널 굿즈 판매와 포토스팟 설치가 포함됩니다.",
+      "description": "遠鉄百貨店 특별기획. 오리지널 패키지 餃子 2종은6/18~12월 말 본관地下1階グルメセレクト와 HMV POP UP SHOP 기간 중 회장에서 판매, 온라인 한정 餃子セット도 판매. ROOTOTE 콜라보 토트백은7/1~9월 말 HMV POP UP SHOP 회장/온라인에서 판매. 初音ミク 특대 패널 포토스팟은6/18~9/30 イ・コ・イ スクエア3階에 설치. 遠鉄 디지털 스탬프 랠리 포인트도 운영됩니다.",
       "links": [
         {
           "label": "엔테츠백화점 특설",
@@ -219,6 +228,35 @@
       "eventId": "magical-mirai-2026-hamamatsu",
       "displayOrder": 3,
       "placeId": "place-3"
+    },
+    {
+      "id": "hmv-pop-up-hamamatsu",
+      "section": "하마마츠 콜라보",
+      "title": "HMV POP UP SHOP HAMAMATSU",
+      "date": "2026-07-22 ~ 07-28",
+      "place": "遠鉄百貨店 本館8階催会場",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E9%89%84%E7%99%BE%E8%B2%A8%E5%BA%97%20%E6%9C%AC%E9%A4%A88%E9%9A%8E%E5%82%AC%E4%BC%9A%E5%A0%B4",
+      "reservation": [
+        "무료",
+        "굿즈"
+      ],
+      "description": "初音ミク「マジカルミライ 2026」× HMV POP UP SHOP 浜松会場。オフィシャルグッズ、POP UP SHOP 오리지널 굿즈, 구매 특전 미니카드가 등장합니다. 7/24~7/26은 POP UP SHOP 오리지널 굿즈 판매만 진행됩니다. 입장 무료, 최종일은 17:00 폐장.",
+      "links": [
+        {
+          "label": "공식 연동기획",
+          "url": "https://magicalmirai.com/2026/special_collabo_link.html"
+        },
+        {
+          "label": "HMV 상세",
+          "url": "https://www.hmv.co.jp/news/article/260527131/"
+        },
+        {
+          "label": "遠鉄百貨店 특설",
+          "url": "https://www.endepa.com/special/z8tkgt7ls_d"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 4
     },
     {
       "id": "city-pr",
@@ -242,7 +280,7 @@
         }
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
-      "displayOrder": 4,
+      "displayOrder": 5,
       "placeId": "place-4"
     },
     {
@@ -258,6 +296,10 @@
       "description": "대상 점포에서 2,000円 이상 구매 시 오리지널 스티커를 증정합니다. 라이브/기획전 티켓 제시로 메이원 7F 일부 음식점과 8F エクセルシオールカフェ, エキマチビックカメラ館 일부 음식점에서 푸드&드링크 서비스도 진행됩니다.",
       "links": [
         {
+          "label": "メイワン 공식",
+          "url": "https://www.may-one.co.jp/news/35396/"
+        },
+        {
           "label": "하마마츠 특설",
           "url": "https://hamamatsu-excursion.com/"
         },
@@ -267,7 +309,7 @@
         }
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
-      "displayOrder": 5
+      "displayOrder": 6
     },
     {
       "id": "sugakiya-miku-80th",
@@ -292,7 +334,7 @@
         }
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
-      "displayOrder": 6
+      "displayOrder": 7
     },
     {
       "id": "miraira-science-museum",
@@ -314,7 +356,7 @@
         }
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
-      "displayOrder": 7
+      "displayOrder": 8
     },
     {
       "id": "tenhama-una-ekimemo",
@@ -340,7 +382,100 @@
         }
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
-      "displayOrder": 8
+      "displayOrder": 9
+    },
+    {
+      "id": "vocaloid-hachiman-station",
+      "section": "하마마츠 콜라보",
+      "title": "VOCALOID × 遠州鉄道 八幡駅周辺企画",
+      "date": "2026-07-01 ~ 09-30",
+      "place": "遠州鉄道 八幡駅周辺",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E5%B7%9E%E9%89%84%E9%81%93%20%E5%85%AB%E5%B9%A1%E9%A7%85",
+      "reservation": [
+        "무료"
+      ],
+      "description": "ヤマハイノベーションロード最寄りの八幡駅周辺で、駅舎コラボラッピングと初音ミク音声の車内アナウンスを実施。車内アナウンスは遠州病院駅→八幡駅（下り）と八幡駅→助信駅（上り）区間で展開されます。",
+      "links": [
+        {
+          "label": "VOCALOID公式",
+          "url": "https://www.vocaloid.com/news/events_020/"
+        },
+        {
+          "label": "Yamaha VOCALOID公式X",
+          "url": "https://x.com/vocaloid_yamaha/status/2072230491730977025"
+        },
+        {
+          "label": "ブログ整理",
+          "url": "https://39tn.net/2026/06/01/__trashed/#%E5%85%AB%E5%B9%A1%E9%A7%85%E4%BB%98%E8%BF%91%E3%81%A7%E3%81%AE%E8%BB%8A%E5%86%85%E6%94%BE%E9%80%81%E3%82%B3%E3%83%A9%E3%83%9C"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 10
+    },
+    {
+      "id": "botejyu-official-collab",
+      "section": "공식 콜라보",
+      "title": "ぼてぢゅう®グループ 콜라보",
+      "date": "2026-07-23 ~ 08-31",
+      "place": "ぼてぢゅう 대상 점포",
+      "mapUrl": "",
+      "reservation": [
+        "굿즈"
+      ],
+      "description": "ピアプロキャラクターズとぼてぢゅう®グループの公式コラボ。コラボフード・ドリンクメニューとオリジナルグッズを展開。対象は道頓堀店、渋谷店、池袋東武店、御徒町店、新宿サブナード店、横浜ランドマーク店、天王寺ミオ店、HEPナビオ店、神戸ハーバーランド店、関西国際空港店などで、浜松対象店舗はありません。",
+      "links": [
+        {
+          "label": "공식 연동기획",
+          "url": "https://magicalmirai.com/2026/special_collabo_link.html"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 20
+    },
+    {
+      "id": "short-video-campaign",
+      "section": "공식 콜라보",
+      "title": "ショート動画 投稿キャンペーン",
+      "date": "2026-07-02 ~ 09-06",
+      "place": "TikTok / YouTube Shorts / Instagram",
+      "mapUrl": "",
+      "reservation": [
+        "무료"
+      ],
+      "description": "テーマソング「空に免じて」の音源を使い、ハッシュタグ「#マジカルミライ2026」を付けてショート動画を投稿する公式キャンペーン。応募フォーム送信で、参加者全員に「空に免じて」MVイラストのスマホ用壁紙画像をプレゼント。",
+      "links": [
+        {
+          "label": "공식 연동기획",
+          "url": "https://magicalmirai.com/2026/special_collabo_link.html"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 21
+    },
+    {
+      "id": "programming-contest",
+      "section": "공식 콜라보",
+      "title": "プログラミング・コンテスト",
+      "date": "2026-03-27 ~ 07-25",
+      "place": "온라인 / HAMAMATSU 企画展ステージ",
+      "mapUrl": "",
+      "reservation": [
+        "무료",
+        "전시회 티켓 필요"
+      ],
+      "description": "楽曲コンテスト受賞曲に合わせて動くリリックアプリを募集する公式企画。作品募集は6/29正午まで。HAMAMATSU会場では7/25 14:30~15:30に「TextAlive講座 / プログラミング・コンテスト入選作品発表会」を企画展ステージで実施。ステージ観覧には企画展チケットが必要です。",
+      "links": [
+        {
+          "label": "コンテスト公式",
+          "url": "https://magicalmirai.com/2026/procon/"
+        },
+        {
+          "label": "企画展ステージ",
+          "url": "https://magicalmirai.com/2026/hamamatsu_exstage.html"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 22
     }
   ],
   "stagePrograms": [
