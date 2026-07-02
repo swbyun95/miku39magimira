@@ -3,7 +3,7 @@
   "site": {
     "title": "39 행사 HUB",
     "subtitle": "공식 정보, 예약 필요 항목, 현지 콜라보만 간단히 모아봅니다.",
-    "dataVersion": "2026-07-02-v9-collab-detail-sync",
+    "dataVersion": "2026-07-02-v10-hamamatsu-collab-sync",
     "lastUpdated": "2026-07-02",
     "notice": "공식 링크가 있는 정보만 표시합니다. 공연·전시회·하마마츠 콜라보·공식 콜라보 기준으로 정리합니다."
   },
@@ -230,7 +230,7 @@
       "reservation": [
         "무료"
       ],
-      "description": "浜松駅前キタラでコラボ看板を掲出。観光周遊マップと観光PRポスターは浜松市役所、浜松市観光インフォメーションセンター、区役所・行政センターほかで展開。初音ミク、鏡音リン、鏡音レン、巡音ルカ、MEIKO、KAITOのキャラクターパネル各1枚も浜松市内に掲出されます。",
+      "description": "浜松駅前キタラでコラボ看板を掲出。観光周遊マップと観光PRポスターは浜松市観光インフォメーションセンター、浜松市役所、区役所・行政センターほかで展開。コラボパネルは初音ミク：浜松市観光インフォメーションセンター、鏡音リン：遠州鉄道 新浜松駅、鏡音レン：浜松駅ビル メイワン、巡音ルカ：浜松城、MEIKO：オークラアクトシティホテル浜松 展望回廊、KAITO：浜松科学館みらいーら。",
       "links": [
         {
           "label": "공식 연동기획",
@@ -244,6 +244,30 @@
       "eventId": "magical-mirai-2026-hamamatsu",
       "displayOrder": 4,
       "placeId": "place-4"
+    },
+    {
+      "id": "meiwon-sticker-food-service",
+      "section": "하마마츠 콜라보",
+      "title": "浜松駅ビル メイワン 특전",
+      "date": "2026-07-23 ~ 07-26",
+      "place": "浜松駅ビル メイワン / エキマチビックカメラ館",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%9C%E6%9D%BE%E9%A7%85%E3%83%93%E3%83%AB%20%E3%83%A1%E3%82%A4%E3%83%AF%E3%83%B3",
+      "reservation": [
+        "무료"
+      ],
+      "description": "대상 점포에서 2,000円 이상 구매 시 오리지널 스티커를 증정합니다. 라이브/기획전 티켓 제시로 메이원 7F 일부 음식점과 8F エクセルシオールカフェ, エキマチビックカメラ館 일부 음식점에서 푸드&드링크 서비스도 진행됩니다.",
+      "links": [
+        {
+          "label": "하마마츠 특설",
+          "url": "https://hamamatsu-excursion.com/"
+        },
+        {
+          "label": "블로그 정리",
+          "url": "https://39tn.net/2026/06/01/__trashed/#%E6%B5%9C%E6%9D%BE%E9%A7%85%E3%83%93%E3%83%AB_%E3%83%A1%E3%82%A4%E3%83%AF%E3%83%B3"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 5
     },
     {
       "id": "sugakiya-miku-80th",
@@ -269,6 +293,54 @@
       ],
       "eventId": "magical-mirai-2026-hamamatsu",
       "displayOrder": 6
+    },
+    {
+      "id": "miraira-science-museum",
+      "section": "하마마츠 콜라보",
+      "title": "浜松科学館みらいーら 관련 기획",
+      "date": "2026-07-01 ~ 08-31",
+      "place": "浜松科学館みらいーら",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%9C%E6%9D%BE%E7%A7%91%E5%AD%A6%E9%A4%A8%E3%81%BF%E3%82%89%E3%81%84%E3%83%BC%E3%82%89",
+      "reservation": [],
+      "description": "「マジカルミライ 2026」関連企画。歌声合成ソフトウェア解説パネル展示は7/1~8/31、音と光のサイエンスショーは7/24~7/26 15:30~16:00、初音ミク V6 操作体験は7/24~7/26 10:00~12:00・各日12組程度・予約不要。コラボカフェは7/20~8/31 11:00~16:00で、コラボメニュー購入または1,500円以上購入でオリジナル紙製コースターを配布。コンセプトルームも7/20~8/31設置。",
+      "links": [
+        {
+          "label": "浜松科学館 공식",
+          "url": "https://www.mirai-ra.jp/event/42997/"
+        },
+        {
+          "label": "하마마츠 특설",
+          "url": "https://hamamatsu-excursion.com/"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 7
+    },
+    {
+      "id": "tenhama-una-ekimemo",
+      "section": "하마마츠 콜라보",
+      "title": "天竜浜名湖鉄道 × 音街ウナ × 駅メモ！",
+      "date": "2026-04-21 ~ 09-30",
+      "place": "天竜浜名湖鉄道 天竜二俣駅ほか",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%AB%9C%E6%B5%9C%E5%90%8D%E6%B9%96%E9%89%84%E9%81%93%20%E5%A4%A9%E7%AB%9C%E4%BA%8C%E4%BF%A3%E9%A7%85",
+      "reservation": [
+        "무료",
+        "굿즈",
+        "스탬프 랠리"
+      ],
+      "description": "マジカルミライ期間と重なる天浜線・音街ウナ・駅メモ！コラボ。沿線駅と観光地を巡るデジタルスタンプラリー、BIGパネル設置、コラボグッズ販売、全ミッションクリア特典の限定コラボフィルムなどを実施。天竜二俣駅は遠鉄スタンプラリーのポイント兼ノベルティ受取場所でもあります。",
+      "links": [
+        {
+          "label": "天浜線 공식",
+          "url": "https://www.tenhama.co.jp/events/33763/"
+        },
+        {
+          "label": "駅メモ！",
+          "url": "https://ekimemo.com/"
+        }
+      ],
+      "eventId": "magical-mirai-2026-hamamatsu",
+      "displayOrder": 8
     }
   ],
   "stagePrograms": [
